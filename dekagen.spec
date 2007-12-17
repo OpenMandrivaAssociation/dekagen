@@ -7,7 +7,6 @@ Name:      %{name}
 Version:   %{version}
 Release:   %{release}
 Source:    %{name}-%{version}.tar.bz2
-BuildRoot: %{_tmppath}/%{name}-buildroot
 License:   GPL
 Group:     Sound
 URL:       http://userpage.fu-berlin.de/~mbayer/tools/dekagen.html

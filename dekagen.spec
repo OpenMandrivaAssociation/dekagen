@@ -1,6 +1,6 @@
 %define name dekagen
 %define version 1.0.2
-%define release %mkrel 2
+%define release %mkrel 4
 
 Summary:   Rips and encodes CD's
 Name:      %{name}

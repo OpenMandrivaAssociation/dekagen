@@ -14,6 +14,7 @@ URL:       http://userpage.fu-berlin.de/~mbayer/tools/dekagen.html
 Obsoletes: ripenc
 Provides:  ripenc
 Buildarch: noarch
+BuildRequires: dos2unix
 
 %description
 The dekagen bourne shell script, formerly known as ripenc, is an interactive 
@@ -26,6 +27,9 @@ with an ID3 tag.
 rm -rf $RPM_BUILD_ROOT
 
 %setup 
+#fix CRLF in CHANGES
+cp --preserve CHANGES CHANGES.msdos
+dos2unix -U CHANGES
 
 %build
 

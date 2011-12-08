@@ -29,7 +29,7 @@ rm -rf $RPM_BUILD_ROOT
 %setup 
 #fix CRLF in CHANGES
 cp --preserve CHANGES CHANGES.msdos
-dos2unix -U CHANGES
+dos2unix CHANGES
 
 %build
 

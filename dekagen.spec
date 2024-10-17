@@ -10,7 +10,7 @@ Source:    %{name}-%{version}.tar.bz2
 License:   GPLv2+
 Group:     Sound
 # looks like is a dead end , maybe abbandon 
-URL:       http://userpage.fu-berlin.de/~mbayer/tools/dekagen.html
+URL:       https://userpage.fu-berlin.de/~mbayer/tools/dekagen.html
 Obsoletes: ripenc
 Provides:  ripenc
 Buildarch: noarch
